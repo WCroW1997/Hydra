@@ -9,6 +9,7 @@
 body {
 	background: #302c42;
 	font-family: 'Montserrat', serif;
+	color: #fff;
 }
 
 a {
@@ -145,4 +146,182 @@ a {
 	padding: 30px 50px;
 	border-top: none;
 	border-bottom: none;
+}
+
+.about {
+	padding-top: 90px;
+}
+
+.about__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.section__title {
+	font-size: 36px;
+	line-height: 150%;
+}
+
+.about__title {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	max-width: 300px;
+}
+
+.arrow {
+	position: absolute;
+	bottom: -10%;
+	right: -70%;
+}
+
+.about__header__text {
+	max-width: 650px;
+	font-size: 16px;
+}
+
+.about__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 85px;
+}
+
+.about__content {
+	max-width: 630px;
+}
+
+.about__content .section__title {
+	max-width: 195px;
+}
+
+.about__text {
+	margin: 42px 0 28px;
+}
+
+.about__btn {
+	display: inline-block;
+}
+
+.advantages {
+	margin-top: 110px;
+}
+
+.advantages__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.advantages__title {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	max-width: 300px;
+}
+
+.advantages__header__text {
+	max-width: 650px;
+	font-size: 16px;
+}
+
+.advantages__zone {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 105px;
+}
+
+.advantages__card {
+	background: radial-gradient(rgba(58, 52, 86, 0.85), #211e2e);
+	border-radius: 40px;
+	flex-basis: 24.3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 25px 40px;
+}
+
+.advantages__card__img {
+	border: 13px solid rgba(14, 14, 14, 0.32);
+	border-radius: 100%;
+	margin-bottom: 21px;
+}
+
+.advantages__card__title {
+	font-size: 24px;
+	margin-bottom: 17px;
+}
+
+.line {
+	width: 155px;
+	height: 1px;
+	background: rgba(192, 183, 232, 0.33);
+	margin-bottom: 21px;
+}
+
+.advantages__card__desc {
+	font-size: 12px;
+	margin-bottom: 35px;
+}
+
+.brand {
+	margin-top: 115px;
+}
+
+.brand__bg {
+	background: url(./img/brand__bg.png) no-repeat center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 108px 0 96px;
+}
+
+.brand__bg .section__title {
+	max-width: 580px;
+	text-align: center;
+}
+
+.brand__arrow {
+	width: 70px;
+	height: 70px;
+	background: url('./img/arrow__down.svg') no-repeat center center,
+		linear-gradient(268deg, #c0b7e8 0%, #8176af 100%);
+	border-radius: 100%;
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	bottom: -10%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.brand__arrow::before {
+	content: '';
+	width: 100px;
+	height: 100px;
+	background: rgba(14, 14, 14, 0.32);
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	display: flex;
+}
+
+.brand__logos {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
